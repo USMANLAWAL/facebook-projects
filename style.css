@@ -87,33 +87,30 @@ input[type= "password"]{
     font-family: inherit;
 }
 
-.login{
-        direction: ltr;
-    margin: 0;
+button{
     cursor: pointer;
+    background-color: #1877f2;
+    border-radius: 6px;
     display: inline-block;
-    text-decoration: none;
-    white-space: nowrap;
-    box-sizing: content-box;
-    -webkit-font-smoothing: antialiased;
-    font-weight: bold;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    text-shadow: none;
-    vertical-align: middle;
     transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
     color: #fff;
-    background-color: #1877f2;
-    border: none;
-    border-radius: 6px;
     font-size: 20px;
-    line-height: 48px;
+    vertical-align: middle;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 17.5px;
+    font-size: 20px;
     padding: 0 16px;
     width: 332px;
+    font-weight: bold; 
+    border-width: 0px;
+    white-space: nowrap;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased; 
+    line-height: 48px;
     font-family: inherit;
-    margin-bottom: 17.5px;
 }
+
 .for{
         direction: ltr;
     line-height: 1.34;
