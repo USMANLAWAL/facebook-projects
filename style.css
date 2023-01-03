@@ -147,6 +147,7 @@ button{
     padding: 0 16px;
     font-family: inherit;
 }
+
 @media only screen and (max-width: 900px)
 body{
        color: #1c1e21;
